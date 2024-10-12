@@ -1,0 +1,28 @@
+name: fb_auth_bloc
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  cloud_firestore: ^5.4.4
+  equatable: ^2.0.5
+  firebase_auth: ^5.3.1
+  firebase_core: ^3.6.0
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.6
+  validators: ^3.0.0
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/img/
